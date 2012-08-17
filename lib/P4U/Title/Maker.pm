@@ -1083,15 +1083,17 @@ __END__
 
 =head1 NAME
 
-P4U::Title::Maker -
+P4U::Title::Maker - make title of P4U
 
 =head1 SYNOPSIS
 
   use P4U::Title::Maker;
+  my $p4u = P4U::Title::Maker->new( num => 3 );
+  my $title = $p4u->make();
 
 =head1 DESCRIPTION
 
-P4U::Title::Maker is
+P4U::Title::Maker is making title of P4U by selecting words from list.
 
 =head1 AUTHOR
 
